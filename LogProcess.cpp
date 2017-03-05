@@ -1,6 +1,8 @@
 #include <sys/stat.h>
 #include "LogProcess.h"
 
+// 테스트를 위한 코드변경
+
 LogProcess::LogProcess() {
 	m_bIsActive = false;
 	m_QueueOpened = true;
